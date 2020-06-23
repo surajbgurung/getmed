@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Order - Customer | GetMed</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/customerNewOrder.css">
+</head>
+<body>
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <h2 class="navbar-brand brand-name">
+      <img src="../images/logo.png" width="80" height="60">GetMed</a>
+    </h2>
+    <div class="btn-group dropleft">
+      <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Customer
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+        <button class="dropdown-item" type="button"><a href="/">Home</a></button>
+        <button class="dropdown-item" type="button"><a href="/profile">Profile</a></button>
+        <button class="dropdown-item" type="button"><a href="/order">Orders</a></button>
+        <button class="dropdown-item" type="button">Contact Us</button>
+        <button class="dropdown-item" type="button"><a href="/logout">Logout</a></button>
+      </div>
+    </div>
+  </nav>
+    <form method="post" action="/placeNewOrder" id="placeNewOrder" class="mt-5">
+      <h1>
+        <bold>Place new Order</bold>
+      </h1>
+      <input id="order" type="text" name="order" placeholder="Order"><br>
+      <!-- Now this is the button which closes the popup-->
+      <!-- <div class="panel-footer"> -->
+      <button id="back" onclick="return goBack();">Back</button>
+      <button id="search">Search</button>
+    </form>
+    <div class="StatusMessage"></div>
+    <div class="container" id="results"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/customerNewOrder.js"></script>
+</body>
+</html>
