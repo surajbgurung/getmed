@@ -1,4 +1,4 @@
-# PROJECT_2
+
 
 # GetMed
 
@@ -30,6 +30,13 @@ Tasks and Roles
 7. Creating demo presentation
 
 ```
+## installation
+* npm install
+* npm start
+
+## Demostration
+![employee](./getMed.gif)
+https://getmed1.herokuapp.com/
 
 ## Future Development
 
@@ -45,5 +52,5 @@ Suraj Gurung
 Deepali Jain
 Shivani Jha
 Phillip Manapat
-
 ```
+* main repoitory link (https://github.com/shivani261979/PROJECT_2 )
