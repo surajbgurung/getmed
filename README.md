@@ -35,8 +35,40 @@ Tasks and Roles
 * npm start
 
 ## Demostration
-![employee](./getMed.gif)
+
+* Landing page
+
+![employee](./images/getmet.png)
+
+* If the user is Driver or Customer they can choose and first have to signup the form.
+
+![employee](./images/loginForm.png)
+
+![employee](./images/signup.png)
+
+* Welcome page
+
+![employee](./images/welcome.png)
+
+* user can order the medicine 
+
+![employee](./images/placeneworder.png)
+
+* Request is send to the Driver and pick the medicine from the pharmacy and delivered to the customer.
+
+![employee](./images/orderHistory.png)
+
+* Full Demo
+
+![employee](./images/getMed.gif)
+
+
+
+
 https://getmed1.herokuapp.com/
+
+
+
 
 ## Future Development
 
